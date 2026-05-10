@@ -1,4 +1,4 @@
-/* CZDevelopment Corp. — cover palette: burgundy, chocolate brown, off-white, architectural watermark */
+﻿/* CZDevelopment Corp. — cover palette: burgundy, chocolate brown, off-white, architectural watermark */
 :root {
   --burgundy: #7b181b;
   --burgundy-deep: #5c1316;
@@ -29,7 +29,7 @@
   --wide: 1100px;
   /* Home hero only: original light architectural photo (not used on inner tabs) */
   --hero-photo: url("https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=1920&q=75");
-  /* Inner pages (not Home): construction-yard imagery — same local asset layered twice with offsets */
+  /* Inner pages (not Home): construction-yard imagery â€” same local asset layered twice with offsets */
   --inner-bg-layer-a: url("../assets/inner-bg-construction.jpg");
   --inner-bg-layer-b: url("../assets/inner-bg-construction.jpg");
 }
@@ -69,7 +69,7 @@ body {
   flex-direction: column;
 }
 
-/* Inner nav pages (not Home): construction-site backdrop — frosted content column */
+/* Inner nav pages (not Home): construction-site backdrop â€” frosted content column */
 body.page-arch-bg {
   background-color: #f4efe8;
   background-image: linear-gradient(
@@ -270,7 +270,7 @@ img {
   }
 }
 
-/* Hero & sections — cover-style watermark + geometric accents */
+/* Hero & sections â€” cover-style watermark + geometric accents */
 .hero {
   position: relative;
   padding: 4rem 1.25rem 5rem;
@@ -463,7 +463,7 @@ img {
   color: var(--text-muted);
 }
 
-/* About Us — teamwork photography strip */
+/* About Us â€” teamwork photography strip */
 .about-team-section__intro {
   margin-bottom: 1.35rem;
 }
@@ -519,7 +519,7 @@ img {
   letter-spacing: 0.01em;
 }
 
-/* About Us page — editorial layout & corporate tone */
+/* About Us page â€” editorial layout & corporate tone */
 body.about-page .page-wrap {
   padding-bottom: 4.5rem;
 }
@@ -750,7 +750,7 @@ body.about-page .about-contact-panel__detail-strong {
   flex-shrink: 0;
 }
 
-/* Our Services — What we deliver (grouped capability pillars) */
+/* Our Services â€” What we deliver (grouped capability pillars) */
 .deliver-section__header {
   margin-bottom: 1.75rem;
 }
@@ -827,7 +827,7 @@ body.about-page .about-contact-panel__detail-strong {
   gap: 0.75rem 1.5rem;
 }
 
-/* Supporting trades: each row is its own tile — do not strip last item border (was clipping Landscaping card) */
+/* Supporting trades: each row is its own tile â€” do not strip last item border (was clipping Landscaping card) */
 .deliver-pillar__list--paired > li {
   border-bottom: 1px solid rgba(220, 212, 204, 0.65);
   padding: 0.75rem 0;
@@ -900,7 +900,7 @@ body.about-page .about-contact-panel__detail-strong {
   gap: 1rem;
 }
 
-/* Projects — portfolio images from company profile */
+/* Projects â€” portfolio images from company profile */
 .project-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr));
@@ -1018,7 +1018,7 @@ body.about-page .about-contact-panel__detail-strong {
   line-height: 1.5;
 }
 
-/* Footer — deep burgundy band + motto (cover strip) */
+/* Footer â€” deep burgundy band + motto (cover strip) */
 .site-footer {
   border-top: none;
   padding: 0;
@@ -1097,7 +1097,7 @@ body.about-page .about-contact-panel__detail-strong {
   color: var(--burgundy);
 }
 
-/* Partnerships — modal document list (Our Services) */
+/* Partnerships â€” modal document list (Our Services) */
 .partnerships-section .partnership-list {
   list-style: none;
   margin: 0.75rem 0 0;
