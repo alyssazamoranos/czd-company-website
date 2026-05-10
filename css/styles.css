@@ -1124,6 +1124,10 @@ body.about-page .about-contact-panel__detail-strong {
   max-width: 100%;
 }
 
+a.partnership-link {
+  display: inline-block;
+}
+
 .partnership-link:hover,
 .partnership-link:focus-visible {
   color: var(--burgundy-deep);

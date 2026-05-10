@@ -1,4 +1,17 @@
 (function () {
+  var TAB_TITLE = "CZDevelopment Corp.";
+  function lockDocumentTitle() {
+    document.title = TAB_TITLE;
+  }
+  lockDocumentTitle();
+  document.addEventListener("DOMContentLoaded", lockDocumentTitle);
+  window.addEventListener("load", lockDocumentTitle);
+  window.addEventListener("pageshow", function (event) {
+    if (event.persisted) {
+      lockDocumentTitle();
+    }
+  });
+
   var toggle = document.querySelector(".nav-toggle");
   var nav = document.querySelector(".main-nav");
   if (toggle && nav) {
